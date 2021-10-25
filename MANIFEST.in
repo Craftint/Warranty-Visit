@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include warranty_visit *.css
+recursive-include warranty_visit *.csv
+recursive-include warranty_visit *.html
+recursive-include warranty_visit *.ico
+recursive-include warranty_visit *.js
+recursive-include warranty_visit *.json
+recursive-include warranty_visit *.md
+recursive-include warranty_visit *.png
+recursive-include warranty_visit *.py
+recursive-include warranty_visit *.svg
+recursive-include warranty_visit *.txt
+recursive-exclude warranty_visit *.pyc
